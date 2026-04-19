@@ -1,0 +1,10 @@
+# 本 plugin 开发期间的本地残留
+.DS_Store
+*.pyc
+__pycache__/
+.venv/
+.idea/
+.vscode/
+
+# 意外生成的 runtime 状态（正常情况下放到 ${CLAUDE_PLUGIN_DATA}）
+/.runtime/

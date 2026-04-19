@@ -1,0 +1,19 @@
+{
+  "name": "adr-tools",
+  "owner": {
+    "name": "laiwenqiang"
+  },
+  "metadata": {
+    "description": "ADR 决策记录制度 plugin 的分发仓库（单 plugin）",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "adr-governance",
+      "source": "./",
+      "description": "自动提醒 + 规范化的 ADR 流程。Stop hook 拦截决策信号，decide 手动归档，init-adr 一键初始化项目",
+      "category": "governance",
+      "tags": ["adr", "decision-record", "governance", "hook"]
+    }
+  ]
+}

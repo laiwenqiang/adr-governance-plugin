@@ -1,0 +1,12 @@
+{
+  "name": "adr-governance",
+  "version": "0.1.0",
+  "description": "自动提醒 + 规范化的架构决策记录（ADR）流程。Stop hook 扫描对话中的决策信号，强制提示归档；提供 decide（手动归档）、init-adr（项目初始化）、writing-adr（写作指南）三个 skill。",
+  "author": {
+    "name": "laiwenqiang"
+  },
+  "homepage": "https://github.com/laiwenqiang/adr-governance-plugin",
+  "repository": "https://github.com/laiwenqiang/adr-governance-plugin",
+  "license": "MIT",
+  "keywords": ["adr", "decision-record", "governance", "architecture", "hook", "stop-hook"]
+}
